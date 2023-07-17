@@ -178,7 +178,46 @@ main > section {
   font-weight: 400;
   margin-bottom: 20px;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
+}
+
+/* footer section styles */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 200px 130px;
+  margin-top: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+footer img {
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
 }
